@@ -1,0 +1,4 @@
+Database.mdf
+Database_log.ldf
+Migrations/
+Debug/

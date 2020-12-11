@@ -48,13 +48,6 @@ namespace PineappleV2.Forms.AddForms
             idLabel.TabIndex = 4;
             idLabel.Text = "Id:";
             // 
-            // idTextBox
-            // 
-            this.idTextBox.Location = new System.Drawing.Point(88, 12);
-            this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(200, 20);
-            this.idTextBox.TabIndex = 5;
-            // 
             // nameLabel
             // 
             nameLabel.AutoSize = true;
@@ -63,6 +56,13 @@ namespace PineappleV2.Forms.AddForms
             nameLabel.Size = new System.Drawing.Size(38, 13);
             nameLabel.TabIndex = 6;
             nameLabel.Text = "Name:";
+            // 
+            // idTextBox
+            // 
+            this.idTextBox.Location = new System.Drawing.Point(88, 12);
+            this.idTextBox.Name = "idTextBox";
+            this.idTextBox.Size = new System.Drawing.Size(200, 20);
+            this.idTextBox.TabIndex = 5;
             // 
             // nameTextBox
             // 
@@ -105,6 +105,7 @@ namespace PineappleV2.Forms.AddForms
             this.Controls.Add(this.nameTextBox);
             this.Name = "AddDepartmentForm";
             this.Text = "AddDepartmentForm";
+            this.Load += new System.EventHandler(this.AddDepartmentForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

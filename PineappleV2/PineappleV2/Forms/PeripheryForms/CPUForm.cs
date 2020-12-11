@@ -1,4 +1,5 @@
-﻿using PineappleV2.Models.ComputerSettings;
+﻿using PineappleV2.Forms.AddForms.PeripheryAddForms;
+using PineappleV2.Models.ComputerSettings;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -54,7 +55,8 @@ namespace PineappleV2.Forms.PeripheryForms
 
         private void addButton_Click(object sender, EventArgs e)
         {
-
+            AddCPUForm form = new AddCPUForm();
+            form.ShowDialog();
         }
 
         private void CPUForm_Activated(object sender, EventArgs e)

@@ -91,6 +91,12 @@
     <Compile Include="Forms\AddForms\AddPeripheryForm.Designer.cs">
       <DependentUpon>AddPeripheryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AddForms\PeripheryAddForms\AddCPUForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddForms\PeripheryAddForms\AddCPUForm.Designer.cs">
+      <DependentUpon>AddCPUForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AddForms\PositionAddForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddForms\AddPeripheryForm.resx">
       <DependentUpon>AddPeripheryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddForms\PeripheryAddForms\AddCPUForm.resx">
+      <DependentUpon>AddCPUForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddForms\PositionAddForm.resx">
       <DependentUpon>PositionAddForm.cs</DependentUpon>

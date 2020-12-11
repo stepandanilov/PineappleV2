@@ -37,5 +37,10 @@ namespace PineappleV2.Forms.AddForms
         {
             Close();
         }
+
+        private void AddDepartmentForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

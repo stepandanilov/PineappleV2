@@ -73,3 +73,4 @@ C:\pineapple\PineappleV2\PineappleV2\PineappleV2\obj\Debug\PineappleV2.pdb
 C:\pineapple\PineappleV2\PineappleV2\PineappleV2\bin\Debug\Database.mdf
 C:\pineapple\PineappleV2\PineappleV2\PineappleV2\bin\Debug\Database_log.ldf
 C:\pineapple\PineappleV2\PineappleV2\PineappleV2\obj\Debug\PineappleV2.Migrations.Initial.resources
+C:\pineapple\PineappleV2\PineappleV2\PineappleV2\obj\Debug\PineappleV2.Forms.AddForms.PeripheryAddForms.AddCPUForm.resources
